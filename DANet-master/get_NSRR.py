@@ -72,7 +72,7 @@ for v_id, val in enumerate(vals):
             if args.save_images:
                 for batch in range(len(rgb_noisy)):
                     denoised_img = img_as_ubyte(NSRR[batch])
-                    new_path = filenames[batch].replace('AIGCDetect_test', 'NSRR')
+                    new_path = filenames[batch].replace('Testset', 'NSRR')
                     if not os.path.exists(os.path.dirname(new_path)):
                         os.makedirs(os.path.dirname(new_path))
                     cv2.imwrite(new_path, denoised_img * 255)
