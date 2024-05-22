@@ -25,7 +25,7 @@ parser.add_argument('--gpus', default='0', type=str, help='CUDA_VISIBLE_DEVICES'
 parser.add_argument('--save_images', default=True, action='store_true', help='Save denoised images in result directory')
 parser.add_argument('--model', type=str, default='DANet+',
                                           help="Model selection: DANet or DANet+, (default:DANet+)")
-parser.add_argument('--dataroot', type=str, default=r'E:\data\AIGCDetect_test\test',
+parser.add_argument('--dataroot', type=str, default=r'E:\data\Testset\test',
                                           help="root")
 args = parser.parse_args()
 
