@@ -1,8 +1,3 @@
-"""
-## Multi-Stage Progressive Image Restoration
-## Syed Waqas Zamir, Aditya Arora, Salman Khan, Munawar Hayat, Fahad Shahbaz Khan, Ming-Hsuan Yang, and Ling Shao
-## https://arxiv.org/abs/2102.02808
-"""
 from torch.utils.data import DataLoader
 import numpy as np
 import os
