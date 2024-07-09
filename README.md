@@ -30,7 +30,7 @@ python eval.py --data_root ./NSEE/test --ckpt_path <path_to_ckpt>
 
 ## Pre-trained Models
 
-You can download pretrained models [here](链接：https://pan.baidu.com/s/14p3afSp1M7DARy1aRlIs6w?pwd=2phx)
+You can download pretrained models [here](https://pan.baidu.com/s/14p3afSp1M7DARy1aRlIs6w?pwd=2phx)
 
 ## Acknowledgments
 
